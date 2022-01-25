@@ -1,0 +1,76 @@
+<!-- Input types -->
+
+<!--
+    In this assignment, try to remake the example as well as possible.
+    Write a legal html file as shown in the lessons (you NOT may use the syllabus).
+    The id and value of the inputs are "first", "second", "third" and "fourth" respectively.
+    The names of the radio inputs are "languages".
+    Notice the types.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Radio and checkboxes</title>
+</head>
+<body>
+    <p>An HTML form is used to collect user input. The user input is most often sent to a server for processing.</p>
+
+    <form>
+        <p>Your vehicles:</p>
+
+        <input type="checkbox" id="first" name="first" value="first">
+        <label for="first">I have a bike</label><br>
+
+        <input type="checkbox" id="second" name="second" value="second">
+        <label for="second">I have a car</label><br>
+
+        <p>Favorite languages:</p>
+
+        <input type="radio" id="third" name="languages" value="first">
+        <label for="third">HTML</label><br>
+
+        <input type="radio" id="fourth" name="languages" value="second">
+        <label for="fourth">CSS</label><br>
+    </form>
+</body>
+</html>
+
+
+
+<!-- Student code -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Radio and checkboxes</title>
+</head>
+<body>
+    <p>An HTML form is used to collect user input. The user input is most often sent to a server for processing.</p>
+
+    <form>
+        <h2>Your vehicles:</h2>
+
+        <input type="checkbox" id="first" name="first" value="first">
+        <label for="first">I have a bike</label><br>
+
+        <input type="checkbox" id="second" name="second" value="second">
+        <label for="second">I have a car</label><br>
+
+        <h2>Favorite languages:</h2>
+
+        <input type="radio" id="third" name="languages" value="first">
+        <label for="third">HTML</label><br>
+
+        <input type="radio" id="fourth" name="languages" value="second">
+        <label for="fourth">CSS</label><br>
+    </form>
+</body>
+</html>
+
+
+<!--
+    p -> h2
+    p -> h2
+
+    Is not a valid html document: Initial heading level must be <h1> but got <h2>
+-->

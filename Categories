@@ -1,0 +1,10 @@
+Introduction: h1-h6 p (title) a (target) img (width, height)
+Group related items: lists tables
+Form elements: form label input button br - select textarea
+
+
+
+
+Text formatting: b strong i em mark small del ins sub sup
+Semantic elements: header nav section footer
+hr
